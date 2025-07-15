@@ -48,3 +48,14 @@ A classe `Estacionamento` foi construída com os seguintes membros:
     <a href="mailto:lailazappiello90@gmail.com"><img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" /></a>
     <a href="https://wa.me/5511981642627"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
     <a href="https://www.linkedin.com/in/laila-zappiello/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<p align="center">
+  🌌 <strong>"May the Force be with you."</strong> – Star Wars
+</p>
+<p align="center">
+<img src="https://github.com/zallih/Images/blob/main/Jedi%20grogu%F0%9F%92%9A.jpeg?raw=true" width="250px" />
+</p>
