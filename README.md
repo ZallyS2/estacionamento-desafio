@@ -51,8 +51,6 @@ A classe `Estacionamento` foi construída com os seguintes membros:
 
 <br><br><br><br>
 <br><br><br><br>
-<br><br><br><br>
-<br><br><br><br>
 <p align="center">
   🌌 <strong>"May the Force be with you."</strong> – Star Wars
 </p>
