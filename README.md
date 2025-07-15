@@ -1,38 +1,49 @@
-# DIO - Trilha .NET - Fundamentos
-www.dio.me
+# 🚗 Sistema de Estacionamento em .NET
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
+Projeto desenvolvido como parte da trilha de Fundamentos .NET da [DIO](https://www.dio.me/), com aprimoramentos implementados além da proposta inicial.
 
-## Contexto
-Você foi contratado para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
+---
 
-## Proposta
-Você precisará construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
-![Diagrama de classe estacionamento](diagrama_classe_estacionamento.png)
+## 📚 Descrição
 
-A classe contém três variáveis, sendo:
+Este projeto simula um sistema de gerenciamento de estacionamento, permitindo:
 
-**precoInicial**: Tipo decimal. É o preço cobrado para deixar seu veículo estacionado.
+- ✅ Cadastrar veículos com placas únicas
+- ✅ Remover veículos e calcular o valor a ser pago
+- ✅ Listar todos os veículos estacionados
+- ✅ Interagir por meio de um menu estilizado em terminal
 
-**precoPorHora**: Tipo decimal. É o preço por hora que o veículo permanecer estacionado.
+---
 
-**veiculos**: É uma lista de string, representando uma coleção de veículos estacionados. Contém apenas a placa do veículo.
+## 🛠️ Funcionalidades
 
-A classe contém três métodos, sendo:
+A classe `Estacionamento` foi construída com os seguintes membros:
 
-**AdicionarVeiculo**: Método responsável por receber uma placa digitada pelo usuário e guardar na variável **veiculos**.
+### 🔢 Variáveis:
 
-**RemoverVeiculo**: Método responsável por verificar se um determinado veículo está estacionado, e caso positivo, irá pedir a quantidade de horas que ele permaneceu no estacionamento. Após isso, realiza o seguinte cálculo: **precoInicial** * **precoPorHora**, exibindo para o usuário.
+- `precoInicial` (_decimal_): Preço base ao estacionar.
+- `precoPorHora` (_decimal_): Valor cobrado por hora adicional.
+- `veiculos` (_List<string>_): Lista com as placas dos veículos estacionados.
 
-**ListarVeiculos**: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
+### ⚙️ Métodos:
 
-Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
-1. Cadastrar veículo
-2. Remover veículo
-3. Listar veículos
-4. Encerrar
+- `AdicionarVeiculo()`: Solicita a placa do usuário e adiciona à lista, impedindo duplicatas.
+- `RemoverVeiculo()`: Solicita a placa e o tempo de permanência, calcula o valor e remove da lista.
+- `ListarVeiculos()`: Exibe todos os veículos no estacionamento ou uma mensagem apropriada.
 
+---
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+## 🧠 Melhorias Aplicadas
+
+- ✅ **Validação de placas duplicadas**: Garante que o mesmo veículo não seja cadastrado duas vezes.
+- ✅ **Menu interativo estilizado com bordas**: Interface mais clara e organizada no terminal.
+- ✅ **Mensagens de feedback ao usuário**: Informações claras em cada etapa da interação.
+
+---
+
+## 💜 Desafio feito por Zallih
+
+<img align="right" alt="zallih" width="150" src="https://github.com/zallih/Images/blob/main/zally.png?raw=true">
+  <a href="https://www.instagram.com/zzappiello.o/"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+    <a href="mailto:lailazappiello90@gmail.com"><img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" /></a>
+    <a href="https://wa.me/5511981642627"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
