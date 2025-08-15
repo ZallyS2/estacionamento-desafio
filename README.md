@@ -41,7 +41,7 @@ A classe `Estacionamento` foi construída com os seguintes membros:
 
 ---
 
-## 💜 Desafio feito por Zallih
+## 💜 Desafio feito por Zally
 
 <img align="right" alt="zallih" width="150" src="https://github.com/zallih/Images/blob/main/zally.png?raw=true">
   <a href="https://www.instagram.com/zzappiello.o/"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
